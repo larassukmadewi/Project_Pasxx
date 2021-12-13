@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.flowerview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FlowerView">
+        <activity
+            android:name=".FotoTulip"
+            android:exported="false" />
+        <activity
+            android:name=".FotoAnggrek"
+            android:exported="false" />
+        <activity
+            android:name=".FotoMelati"
+            android:exported="false" />
+        <activity
+            android:name=".FotoMawar"
+            android:exported="false" />
+        <activity
+            android:name=".Tulip"
+            android:exported="false" />
+        <activity
+            android:name=".Anggrek"
+            android:exported="false" />
+        <activity
+            android:name=".Melati"
+            android:exported="false" />
+        <activity
+            android:name=".Mawar"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
